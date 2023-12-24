@@ -1,0 +1,97 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+   background-color: rgb(195, 226, 194);
+}
+.chat-wrapper{
+    background-color: rgb(243, 243, 243);
+    width: 530px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.header{
+    background-color: rgb(19, 189, 126);
+    color: white;
+    width: 100%;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    gap: 35px;
+}
+.progress{
+    font-size: 18px;
+}
+.toggle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.search-bar input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+
+}
+.search-bar span{
+    padding-right: 15px;
+    color: grey;
+}
+.chat-tile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px 0px;
+
+}
+.img-area{
+    width: 45px;
+    height: 45px;
+
+}
+.img-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.time-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    font-size: 20px;
+    color: rgb(19, 189, 126);
+}
